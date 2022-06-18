@@ -1,0 +1,4 @@
+out/
+public/
+next-env.d.ts
+/*.js
