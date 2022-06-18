@@ -4,6 +4,7 @@
 *.scss
 *.log
 *.lock
+*-lock.yaml
 *.md
 node_modules/
 .next/
