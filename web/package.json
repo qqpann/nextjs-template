@@ -10,8 +10,8 @@
     "lint:eslint": "next lint .",
     "lint:prettier": "prettier --check .",
     "fix": "run-s fix:prettier fix:eslint",
-    "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn lint:prettier --write"
+    "fix:eslint": "pnpm lint:eslint --fix",
+    "fix:prettier": "pnpm lint:prettier --write"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -23,6 +23,7 @@
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^8.18.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "^8.5.0",
@@ -33,6 +34,6 @@
   },
   "engines": {
     "node": "^16",
-    "yarn": "^1"
+    "pnpm": "^7"
   }
 }
