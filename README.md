@@ -2,7 +2,7 @@
 
 This is the Next.js template.
 
-## Quick started
+## Quick start
 
 Create a new repository from this template.
 
