@@ -9,5 +9,6 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "eslint.workingDirectories": ["web", { "pattern": "./packages/*/" }]
 }
