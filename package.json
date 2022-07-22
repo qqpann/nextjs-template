@@ -12,7 +12,8 @@
     "pnpm": "^7"
   },
   "scripts": {
-    "dev": "pnpm --prefix web dev"
+    "dev": "pnpm --prefix web dev",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "turbo": "^1.3.4"
