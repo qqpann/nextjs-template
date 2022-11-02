@@ -4,6 +4,9 @@
   "pipeline": {
     "lint": {
       "outputs": []
+    },
+    "fix": {
+      "outputs": []
     }
   }
 }
