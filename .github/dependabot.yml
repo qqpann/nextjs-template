@@ -17,11 +17,6 @@ updates:
       interval: "weekly"
       day: "friday"
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/apps/web" # Location of package manifests
-    schedule:
-      interval: "weekly"
-      day: "friday"
-  - package-ecosystem: "npm" # See documentation for possible values
     directory: "/packages/eslint-config-custom" # Location of package manifests
     schedule:
       interval: "monthly"
