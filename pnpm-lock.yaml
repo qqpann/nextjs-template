@@ -21,12 +21,12 @@ importers:
       '@types/node': 18.11.7
       '@types/react': 18.0.24
       '@types/react-dom': 18.0.8
-      eslint-config-custom: '*'
+      eslint-config-custom: workspace:*
       eslint-config-next: 13.0.0
       next: 13.0.0
       react: 18.2.0
       react-dom: 18.2.0
-      tsconfig: '*'
+      tsconfig: workspace:*
     dependencies:
       next: 13.0.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -37,7 +37,7 @@ importers:
       '@types/react-dom': 18.0.8
       eslint-config-custom: link:../../packages/eslint-config-custom
       eslint-config-next: 13.0.0
-      tsconfig: 7.0.0
+      tsconfig: link:../../packages/tsconfig
 
   packages/eslint-config-custom:
     specifiers:
@@ -45,14 +45,14 @@ importers:
       '@typescript-eslint/parser': ^5.30.5
       eslint-config-prettier: ^8.5.0
       eslint-plugin-import: ^2.26.0
-      tsconfig: '*'
+      tsconfig: workspace:*
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.30.7_zwmln3xflnoizwz5t3zjekgqne
       '@typescript-eslint/parser': 5.30.7
       eslint-config-prettier: 8.5.0
       eslint-plugin-import: 2.26.0_zwmln3xflnoizwz5t3zjekgqne
     devDependencies:
-      tsconfig: 7.0.0
+      tsconfig: link:../tsconfig
 
   packages/tsconfig:
     specifiers: {}
@@ -297,14 +297,6 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
-    dev: true
-
-  /@types/strip-bom/3.0.0:
-    resolution: {integrity: sha512-xevGOReSYGM7g/kUBZzPqCrR/KYAo+F0yiPc85WFTJa0MSLtyFTVTU6cJu/aV4mid7IffDIWqo69THF2o4JiEQ==}
-    dev: true
-
-  /@types/strip-json-comments/0.0.30:
-    resolution: {integrity: sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.30.7_zwmln3xflnoizwz5t3zjekgqne:
@@ -2070,11 +2062,6 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  /strip-json-comments/2.0.1:
-    resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /strip-json-comments/3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
@@ -2132,15 +2119,6 @@ packages:
       json5: 1.0.1
       minimist: 1.2.6
       strip-bom: 3.0.0
-
-  /tsconfig/7.0.0:
-    resolution: {integrity: sha512-vZXmzPrL+EmC4T/4rVlT2jNVMWCi/O4DIiSj3UHg1OE5kCKbk4mfrXc6dZksLgRM/TZlKnousKH9bbTazUWRRw==}
-    dependencies:
-      '@types/strip-bom': 3.0.0
-      '@types/strip-json-comments': 0.0.30
-      strip-bom: 3.0.0
-      strip-json-comments: 2.0.1
-    dev: true
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}

@@ -10,7 +10,7 @@
     "eslint-plugin-import": "^2.26.0"
   },
   "devDependencies": {
-    "tsconfig": "*"
+    "tsconfig": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
