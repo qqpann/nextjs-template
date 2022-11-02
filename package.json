@@ -12,7 +12,7 @@
     "pnpm": "^7"
   },
   "scripts": {
-    "dev": "pnpm --prefix web dev",
+    "dev": "pnpm --prefix apps/web dev",
     "lint": "turbo run lint",
     "fix": "turbo run fix"
   },
