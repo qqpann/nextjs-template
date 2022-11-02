@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['custom', 'next', 'prettier'],
+  extends: ['next', 'custom'],
   parserOptions: {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
