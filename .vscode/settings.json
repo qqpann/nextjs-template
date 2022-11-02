@@ -10,5 +10,8 @@
     "typescript",
     "typescriptreact"
   ],
-  "eslint.workingDirectories": ["web", { "pattern": "./packages/*/" }]
+  "eslint.workingDirectories": [
+    { "pattern": "./apps/*/" },
+    { "pattern": "./packages/*/" }
+  ]
 }
