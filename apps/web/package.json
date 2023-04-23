@@ -10,7 +10,7 @@
     "lint:eslint": "next lint .",
     "lint:prettier": "prettier --check .",
     "fix": "run-s fix:prettier fix:eslint",
-    "fix:eslint": "pnpm lint:eslint --fix",
+    "fix:eslint": "pnpm lint:eslint --fix --quiet",
     "fix:prettier": "pnpm lint:prettier --write"
   },
   "dependencies": {
