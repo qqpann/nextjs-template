@@ -14,16 +14,16 @@
     "fix:prettier": "pnpm lint:prettier --write"
   },
   "dependencies": {
-    "next": "13.3.1",
+    "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.15.13",
+    "@types/node": "20.1.2",
     "@types/react": "18.2.6",
-    "@types/react-dom": "18.0.11",
+    "@types/react-dom": "18.2.4",
     "eslint-config-custom": "workspace:*",
-    "eslint-config-next": "13.3.1",
+    "eslint-config-next": "13.4.1",
     "tsconfig": "workspace:*"
   }
 }
